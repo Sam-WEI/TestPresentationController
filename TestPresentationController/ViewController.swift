@@ -25,8 +25,10 @@ class ViewController: UIViewController {
         
         if controller is OneViewController {
             slideInTransitioningDelegate.direction = .left
+            slideInTransitioningDelegate.disableCompactHeight = false
         } else if controller is TwoViewController {
             slideInTransitioningDelegate.direction = .right
+            slideInTransitioningDelegate.disableCompactHeight = true
         }
         
         

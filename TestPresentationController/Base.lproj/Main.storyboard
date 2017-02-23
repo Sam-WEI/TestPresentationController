@@ -92,5 +92,35 @@
             </objects>
             <point key="canvasLocation" x="1001" y="648"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="eJk-dZ-MA3">
+            <objects>
+                <viewController storyboardIdentifier="RotateVC" id="oFB-iB-wbx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ey6-bu-U6A"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pma-zh-ltU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J7E-tM-zr8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotate your device!!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kC-fA-F1l">
+                                <rect key="frame" x="56" y="317" width="263" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9kC-fA-F1l" firstAttribute="centerY" secondItem="J7E-tM-zr8" secondAttribute="centerY" id="KtN-MO-TbY"/>
+                            <constraint firstItem="9kC-fA-F1l" firstAttribute="centerX" secondItem="J7E-tM-zr8" secondAttribute="centerX" id="Q8e-39-JRg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oCe-HB-Rkx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2117.5999999999999" y="131.78410794602701"/>
+        </scene>
     </scenes>
 </document>
